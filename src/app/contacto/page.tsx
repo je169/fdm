@@ -29,8 +29,9 @@ const infoContacto = (
     <div className="bg-white rounded-2xl shadow-lg p-6 mb-8 flex flex-col items-center text-center">
       <span className="text-2xl text-primary mb-2">🕒</span>
       <span className="font-semibold text-gray-700 mb-1">Horarios de atención</span>
-      <span className="text-gray-800">Lunes a Viernes: 08:00 - 16:00</span>
-      <span className="text-gray-800">Sábado: 08:00 - 12:00</span>
+      <span className="text-gray-800">Lunes a Viernes:</span>
+      <span className="text-gray-800">08:00 - 12:00</span>
+      <span className="text-gray-800">13:00 - 17:00</span>
     </div>
     {/* Mapa */}
     <div className="w-full rounded-lg overflow-hidden shadow-lg">

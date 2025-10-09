@@ -117,6 +117,11 @@ export default function EventosPage() {
   const juramentoBanderaImgs = [
     "/assets/img/event/juramentobander-img1.jpg",
     "/assets/img/event/juramentobander-img2.jpg",
+    "/assets/img/event/juramentobander-img3.jpg",
+    "/assets/img/event/juramentobander-img4.jpg",
+    "/assets/img/event/juramentobander-img5.jpg",
+    "/assets/img/event/juramentobander-img6.jpg",
+    "/assets/img/event/juramentobander-img7.jpg",
   ];
   return (
     <main className="bg-gray-50 text-gray-800 min-h-screen">

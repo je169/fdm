@@ -6,7 +6,7 @@ export default function Home() {
       <section
         className="hero-bg text-white h-[80vh] flex items-center justify-center text-center"
         style={{
-          backgroundImage: `url('/assets/img/page/page-img1.jpg')`,
+          backgroundImage: `url('/assets/img/page/page-img1.jpeg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
