@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   description: "Colegio Ficoa de Montalvo - Educación Integral para el Futuro",
 };
 
+// Añadimos iconos para favicon y meta tags básicos (Next los usa si están aquí)
+// Usar un favicon.svg que referencia el logo (solución simple)
+export const icons = {
+  icon: '/favicon.ico?v=1',
+  shortcut: '/favicon.ico?v=1',
+  apple: '/favicon.ico?v=1',
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,6 +34,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        {/* Forzar favicon explícito para evitar iconos antiguos en caché/servidos por rutas generadas */}
+  <link rel="icon" href="/logo-ficoa.png" />
+  <link rel="shortcut icon" href="/logo-ficoa.png" />
+  <link rel="apple-touch-icon" href="/logo-ficoa.png" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 text-gray-800`}>
         {/* Header / Barra de Navegación */}
         <header className="bg-white shadow-md sticky top-0 z-50">
